@@ -51,7 +51,7 @@ if manauto == 1:
             if '{}' in ngrok.read():
                 print(bcolors.WARNING, "ngrok authtoken not found")
                 auth32 = input("entre authtoken:")
-                os.system("ngrok authtoken" + auth32)
+                os.system("ngrok authtoken " + auth32)
             else:
                 pass
     try:
